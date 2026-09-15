@@ -24,7 +24,7 @@ class ColorfulTextState extends State<ColorfulText> {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Image.asset('assets/image/logo.png', color: colors[select]),
+        Image.asset('assets/logo.png', color: colors[select]),
         Text(
           "Learn Flutter in a fun way!",
           style: TextStyle(color: colors[select], fontSize: 28),
